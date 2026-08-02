@@ -1,17 +1,9 @@
-# OpenRoadbook
+# OpenRoadbook v0.1.0
 
-Open source roadbook generator for motorcycles.
+First milestone:
+- Load a project
+- Validate structure
+- Prepare for GPX generation
 
-## Goal
-
-Create professional motorcycle roadbooks with:
-
-- PDF guides
-- GPX routes
-- QR codes
-- Images
-- Export packages
-
-## Version
-
-0.1.0
+Run:
+    python run.py
