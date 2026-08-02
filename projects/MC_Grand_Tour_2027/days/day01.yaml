@@ -40,3 +40,17 @@ coordinates:
   destination:
     lat: 52.6229
     lon: 10.0805
+
+waypoints:
+
+  - name: "Halmstad tankstopp"
+    lat: 56.6745
+    lon: 12.8578
+
+  - name: "Rødby färjeläge"
+    lat: 54.6549
+    lon: 11.3500
+
+  - name: "Celle centrum"
+    lat: 52.6229
+    lon: 10.0805

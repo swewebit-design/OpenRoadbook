@@ -22,6 +22,8 @@ class Day:
 
     coordinates: dict = field(default_factory=dict)
 
+    waypoints: list = field(default_factory=list)
+
 
 @dataclass
 class Project:

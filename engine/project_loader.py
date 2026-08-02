@@ -29,24 +29,44 @@ class ProjectLoader:
 
             days.append(
                 Day(
-    day=day_data["day"],
-    title=day_data["title"],
-    start=day_data["start"],
-    destination=day_data["destination"],
-    distance_km=day_data["distance_km"],
-    ride_time=day_data["ride_time"],
+                    day=day_data["day"],
+                    title=day_data["title"],
+                    start=day_data["start"],
+                    destination=day_data["destination"],
+                    distance_km=day_data["distance_km"],
+                    ride_time=day_data["ride_time"],
 
-    fuel_stops=day_data.get("fuel_stops", []),
+                    fuel_stops=day_data.get(
+                        "fuel_stops",
+                        []
+                    ),
 
-    lunch=day_data.get("lunch", {}),
+                    lunch=day_data.get(
+                        "lunch",
+                        {}
+                    ),
 
-    sights=day_data.get("sights", []),
+                    sights=day_data.get(
+                        "sights",
+                        []
+                    ),
 
-    tips=day_data.get("tips", []),
+                    tips=day_data.get(
+                        "tips",
+                        []
+                    ),
 
-    coordinates=day_data.get("coordinates", {})
-)
-)
+                    coordinates=day_data.get(
+                        "coordinates",
+                        {}
+                    ),
+
+                    waypoints=day_data.get(
+                        "waypoints",
+                        []
+                    )
+                )
+            )
 
         return Project(
             name=data["name"],

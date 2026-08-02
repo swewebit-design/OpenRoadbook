@@ -34,3 +34,19 @@ for day in project.days:
     print(
         f"Skapad: {file}"
     )
+
+from engine.gpx_builder import GPXBuilder
+
+
+gpx_builder = GPXBuilder(
+    "output/gpx"
+)
+
+
+for day in project.days:
+
+    file = gpx_builder.build_day(day)
+
+    print(
+        f"GPX skapad: {file}"
+    )
