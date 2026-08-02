@@ -1,5 +1,27 @@
+from dataclasses import dataclass, field
+from typing import List
 
-from dataclasses import dataclass
+
+@dataclass
+class Day:
+
+    day: int
+    title: str
+    start: str
+    destination: str
+    distance_km: int
+    ride_time: str
+
+    fuel_stops: list = field(default_factory=list)
+
+    lunch: dict = field(default_factory=dict)
+
+    sights: list = field(default_factory=list)
+
+    tips: list = field(default_factory=list)
+
+    coordinates: dict = field(default_factory=dict)
+
 
 @dataclass
 class Project:
@@ -7,7 +29,7 @@ class Project:
     version: str
     language: str
     theme: str
-    days: int
+    days: List[Day] = field(default_factory=list)
 
     def summary(self):
         return (
@@ -15,5 +37,5 @@ class Project:
             f"Version : {self.version}\n"
             f"Language: {self.language}\n"
             f"Theme   : {self.theme}\n"
-            f"Days    : {self.days}"
+            f"Days    : {len(self.days)}"
         )

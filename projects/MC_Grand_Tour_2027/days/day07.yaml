@@ -1,0 +1,28 @@
+day: 7
+title: "Moseldalen → Alperna"
+start: "Boppard"
+destination: "Füssen"
+distance_km: 480
+ride_time: "7 h"
+
+fuel_stops:
+  - name: "Ulm"
+    km: 0
+
+lunch:
+  place: "Ulm"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Neuschwanstein slott"
+
+tips:
+  - "Lång dag, starta tidigt"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

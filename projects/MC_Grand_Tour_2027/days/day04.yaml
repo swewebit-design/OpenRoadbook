@@ -1,0 +1,31 @@
+day: 4
+title: "Rothenburg → Moseldalen"
+start: "Rothenburg ob der Tauber"
+destination: "Cochem, Moseldalen"
+distance_km: 330
+ride_time: "5 h"
+
+fuel_stops:
+  - name: "Heidelberg"
+    km: 0
+  - name: "Koblenz"
+    km: 0
+
+lunch:
+  place: "Heidelberg"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Cochem slott"
+  - "Moselpromenaden"
+
+tips:
+  - "Följ Moselns slingrande vägar"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

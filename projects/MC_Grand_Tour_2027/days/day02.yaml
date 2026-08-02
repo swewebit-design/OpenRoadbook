@@ -1,0 +1,33 @@
+day: 2
+title: "Celle → Eisenach"
+start: "Celle, Tyskland"
+destination: "Eisenach, Tyskland"
+distance_km: 330
+ride_time: "5 h"
+
+fuel_stops:
+  - name: "Göttingen"
+    km: 150
+  - name: "Bad Hersfeld"
+    km: 260
+
+lunch:
+  place: "Göttingen"
+  description: "Historisk universitetsstad med gamla stan"
+
+sights:
+  - "Wartburg slott"
+  - "Gamla stan i Eisenach"
+  - "Bachhaus"
+
+tips:
+  - "Kör via mindre vägar genom Thüringen"
+  - "Avsluta dagen med besök vid Wartburg"
+
+coordinates:
+  start:
+    lat: 52.6229
+    lon: 10.0805
+  destination:
+    lat: 50.9747
+    lon: 10.3255

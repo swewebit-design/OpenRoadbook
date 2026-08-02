@@ -10,3 +10,27 @@ print("OpenRoadbook v0.2")
 print("="*40)
 
 print(project.summary())
+
+from engine.preview import RoadbookPreview
+
+preview = RoadbookPreview()
+
+for day in project.days:
+
+    preview.show_day(day)
+
+from engine.roadbook_builder import RoadbookBuilder
+
+
+builder = RoadbookBuilder(
+    "output"
+)
+
+
+for day in project.days:
+
+    file = builder.build_day(day)
+
+    print(
+        f"Skapad: {file}"
+    )

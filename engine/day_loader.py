@@ -15,17 +15,15 @@ class DayLoader:
             data = yaml.safe_load(f)
 
         return Day(
-
-            day=data["day"],
-
-            title=data["title"],
-
-            start=data["start"],
-
-            destination=data["destination"],
-
-            distance_km=data["distance_km"],
-
-            ride_time=data["ride_time"]
-
-        )
+    day=day_data["day"],
+    title=day_data["title"],
+    start=day_data["start"],
+    destination=day_data["destination"],
+    distance_km=day_data["distance_km"],
+    ride_time=day_data["ride_time"],
+    fuel_stops=day_data.get("fuel_stops", []),
+    lunch=day_data.get("lunch", {}),
+    sights=day_data.get("sights", []),
+    tips=day_data.get("tips", []),
+    coordinates=day_data.get("coordinates", {})
+)

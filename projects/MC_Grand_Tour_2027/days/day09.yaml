@@ -1,0 +1,29 @@
+day: 9
+title: "Gardasjön utflyktsdag"
+start: "Riva del Garda"
+destination: "Riva del Garda"
+distance_km: 180
+ride_time: "4 h"
+
+fuel_stops:
+  - name: "Malcesine"
+    km: 0
+
+lunch:
+  place: "Malcesine"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Monte Baldo"
+  - "Limone sul Garda"
+
+tips:
+  - "Ta en lugn dag utan packning"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

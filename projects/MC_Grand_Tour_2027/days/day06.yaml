@@ -1,0 +1,29 @@
+day: 6
+title: "Moseldalen etapp 2"
+start: "Bernkastel-Kues"
+destination: "Boppard"
+distance_km: 140
+ride_time: "3,5 h"
+
+fuel_stops:
+  - name: "Koblenz"
+    km: 0
+
+lunch:
+  place: "Koblenz"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Lorelei-klippan"
+  - "Rhenstranden"
+
+tips:
+  - "En av resans vackraste kördagar"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

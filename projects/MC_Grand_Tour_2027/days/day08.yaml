@@ -1,0 +1,29 @@
+day: 8
+title: "Alperna → Gardasjön"
+start: "Füssen"
+destination: "Riva del Garda"
+distance_km: 330
+ride_time: "5,5 h"
+
+fuel_stops:
+  - name: "Imst"
+    km: 0
+
+lunch:
+  place: "Imst"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Alpvägar"
+  - "Gardasjön"
+
+tips:
+  - "Njut av bergspassen"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

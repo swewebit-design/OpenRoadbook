@@ -1,0 +1,28 @@
+day: 10
+title: "Gardasjön → Dolomiterna"
+start: "Riva del Garda"
+destination: "Cortina d'Ampezzo"
+distance_km: 230
+ride_time: "5 h"
+
+fuel_stops:
+  - name: "Canazei"
+    km: 0
+
+lunch:
+  place: "Canazei"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Dolomiternas bergspass"
+
+tips:
+  - "En av resans höjdpunkter"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

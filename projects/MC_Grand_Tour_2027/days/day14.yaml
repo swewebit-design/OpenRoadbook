@@ -1,0 +1,29 @@
+day: 14
+title: "Hemresa / avslutning"
+start: "Lübeck"
+destination: "Göteborg"
+distance_km: 450
+ride_time: "6 h"
+
+fuel_stops:
+  - name: "Puttgarden/Rødby"
+    km: 0
+
+lunch:
+  place: "Puttgarden/Rødby"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Sista färjan"
+  - "Hemkomst"
+
+tips:
+  - "Avsluta resan lugnt"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

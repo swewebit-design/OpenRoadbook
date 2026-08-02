@@ -1,5 +1,20 @@
 name: MC Grand Tour 2027
-version: 0.1.0
+version: 0.2.0
 language: sv
 theme: classic
-days: 14
+
+days:
+  - day01.yaml
+  - day02.yaml
+  - day03.yaml
+  - day04.yaml
+  - day05.yaml
+  - day06.yaml
+  - day07.yaml
+  - day08.yaml
+  - day09.yaml
+  - day10.yaml
+  - day11.yaml
+  - day12.yaml
+  - day13.yaml
+  - day14.yaml

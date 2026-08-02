@@ -1,0 +1,29 @@
+day: 5
+title: "Moseldalen etapp 1"
+start: "Cochem"
+destination: "Bernkastel-Kues"
+distance_km: 120
+ride_time: "3 h"
+
+fuel_stops:
+  - name: "Trier"
+    km: 0
+
+lunch:
+  place: "Trier"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Reichsburg Cochem"
+  - "Trier Porta Nigra"
+
+tips:
+  - "Ta många fotostopp längs Mosel"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

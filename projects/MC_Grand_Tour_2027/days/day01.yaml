@@ -1,6 +1,42 @@
 day: 1
+
 title: Göteborg → Celle
+
 start: Göteborg
+
 destination: Celle
+
 distance_km: 600
-ride_time: 8 h
+
+ride_time: "8 h"
+
+fuel_stops:
+  - name: Halmstad
+    km: 140
+  - name: Rødby
+    km: 330
+  - name: Lüneburg
+    km: 520
+
+lunch:
+  place: Rødby
+  description: Färjeläge och rast
+
+sights:
+  - Celle gamla stad
+  - Celle slott
+  - Französischer Garten
+
+tips:
+  - Starta tidigt
+  - Undvik stress vid färjan
+  - Promenera i gamla stan på kvällen
+
+coordinates:
+  start:
+    lat: 57.7089
+    lon: 11.9746
+
+  destination:
+    lat: 52.6229
+    lon: 10.0805

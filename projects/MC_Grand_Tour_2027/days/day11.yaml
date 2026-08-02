@@ -1,0 +1,28 @@
+day: 11
+title: "Dolomiterna → Österrike"
+start: "Cortina d'Ampezzo"
+destination: "Innsbruck"
+distance_km: 250
+ride_time: "5 h"
+
+fuel_stops:
+  - name: "Lienz"
+    km: 0
+
+lunch:
+  place: "Lienz"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Grossglocknerområdet"
+
+tips:
+  - "Kontrollera väder i bergen"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

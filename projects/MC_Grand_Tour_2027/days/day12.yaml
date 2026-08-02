@@ -1,0 +1,28 @@
+day: 12
+title: "Österrike → Tyskland"
+start: "Innsbruck"
+destination: "München"
+distance_km: 170
+ride_time: "3 h"
+
+fuel_stops:
+  - name: "Garmisch-Partenkirchen"
+    km: 0
+
+lunch:
+  place: "Garmisch-Partenkirchen"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Alpernas utsiktspunkter"
+
+tips:
+  - "Kortare återhämtningsdag"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

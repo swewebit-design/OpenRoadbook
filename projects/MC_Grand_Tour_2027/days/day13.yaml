@@ -1,0 +1,30 @@
+day: 13
+title: "Tyskland → Sverige"
+start: "München"
+destination: "Lübeck"
+distance_km: 750
+ride_time: "8 h"
+
+fuel_stops:
+  - name: "Nürnberg"
+    km: 0
+  - name: "Hannover"
+    km: 0
+
+lunch:
+  place: "Nürnberg"
+  description: "Planerat lunchstopp"
+
+sights:
+  - "Lübecks gamla stad"
+
+tips:
+  - "Lång transportdag"
+
+coordinates:
+  start:
+    lat: 0
+    lon: 0
+  destination:
+    lat: 0
+    lon: 0

@@ -1,0 +1,32 @@
+day: 3
+title: "Eisenach → Rothenburg ob der Tauber"
+start: "Eisenach, Tyskland"
+destination: "Rothenburg ob der Tauber, Tyskland"
+distance_km: 260
+ride_time: "4 h"
+
+fuel_stops:
+  - name: "Fulda"
+    km: 100
+  - name: "Würzburg"
+    km: 220
+
+lunch:
+  place: "Würzburg"
+  description: "Rast vid gamla stan och residenset"
+
+sights:
+  - "Rothenburgs medeltida stadsmur"
+  - "Plönlein"
+  - "Marktplatz"
+
+tips:
+  - "Ta en kvällspromenad i den gamla staden"
+
+coordinates:
+  start:
+    lat: 50.9747
+    lon: 10.3255
+  destination:
+    lat: 49.3785
+    lon: 10.1816
